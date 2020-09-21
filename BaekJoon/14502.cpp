@@ -10,6 +10,7 @@ int map[9][9], wall[3], visit[80], visitMap[9][9];
 int dx[] = {-1, 0, 0, 1};
 int dy[] = {0, -1, 1, 0};
 int N, M, ans = 0;
+
 int main(){
     memset(visit, 0, sizeof(visit));
     cin >> N >> M;
