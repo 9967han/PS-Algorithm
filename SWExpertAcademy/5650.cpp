@@ -9,6 +9,7 @@ int T, N, map[102][102], ans=0;
 int dx[] = {0, 0, 0, 1, -1};
 int dy[] = {0, 1, -1, 0, 0};
 vector<pair<int, int> > warmhall[11];
+
 int main(){
     cin >> T;
     for(int t=1; t<=T; t++){
